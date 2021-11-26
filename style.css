@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    height: 80px;
+    background-color: #e46ee4;
+}
+
+main .top {
+    height: 250px;
+    background-color: rgb(204, 206, 106);
+    margin-top: 15px;
+}
+
+main .bottom {
+    height: 400px;
+    background-color: rgb(3, 120, 199);
+    margin-top: 15px;
+    position: relative;
+}
+
+.bottom .mini-header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px
+}
+
+.bottom .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: red;
+    width: 20%;
+    float: left;
+    margin: 1% 1% 1% 0;
+    height: 96%
+}
+
+.bottom .middle {
+    position: relative;
+    background-color: red;
+    width: 58%;
+    margin: 1%;
+    height: 96%;
+    float: left;
+}
+
+.bottom .right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    width: 20%;
+    float: right;
+    margin: 1% 0 1% 1%;
+    height: 96%
+}
+
+
