@@ -44,12 +44,9 @@ main .bottom {
 }
 
 .bottom .middle {
-    position: relative;
     background-color: red;
     width: 58%;
-    margin: 1%;
-    height: 96%;
-    float: left;
+    margin: auto;
 }
 
 .bottom .right {
